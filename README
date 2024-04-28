@@ -1,7 +1,9 @@
 This is a fork of the original QMC2 MAME Frontend created by (late) Rene Reucher. 
-Code unchanged, main purpose is to provide pre-compiled and code-signed binaries for MacOS for immediate use.
-I also started to migrate the QMC2 documenation from Waybackmachine to this wiki, but that will be a long way to go..
-
+Code unchanged, these are the main purposes of this fork: 
+1. Provide pre-compiled and code-signed binaries for MacOS for immediate use
+2. WIP - provide build scripts for MacOS for easy own compiles, including codesigning with self-signed certificates
+3. WIP - I also started to migrate the QMC2 documenation from Waybackmachine to this wiki, but that will be a long way to go
+Enjoy
 Estefan
 
 Original ReadMe starts here:
