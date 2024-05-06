@@ -3,6 +3,13 @@ Code unchanged, these are the main purposes of this fork:
 1. Provide pre-compiled and code-signed binaries for MacOS for immediate use
 2. WIP - provide build scripts for MacOS for easy own compiles, including codesigning with self-signed certificates (see instructions in the wiki)
 3. WIP - I also started to migrate the QMC2 documenation from Waybackmachine to this wiki, but that will be a long way to go
+
+Question: I downloaded the QMC2 app, but MacOS tells me that the file is corrupted. I already tried right mouse + open at least twice, but with no success.
+
+Answer: Sorry to hear, your QMC2 app might be in the quarantine. To lift the quarantine, please execute this command in the Terminal
+
+xattr -cr /Applications/qmc2-sdlmame.app (please adjust the path to your QMC2.app, if required)
+
 Enjoy
 Estefan
 
